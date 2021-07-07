@@ -1,0 +1,128 @@
+body{
+    background:#FF7F50 center center ;
+   background-image: url('../background.jpg') ;
+   background-repeat: no-repeat;
+  
+   width:100%;
+   background-size: cover;
+   height:10px;
+   
+}
+
+#back{
+    background-image: url('../background.jpg');
+   opacity: 0.4;
+   background-attachment: fixed;
+   background-size: cover;
+   height: 400px;
+}
+
+div.heading{
+    color:white;
+    background-color: brown;
+    width:300px;
+    height:290px;
+    padding:50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 300px 100px 20px;
+    text-align: center;
+}
+h1.heading{
+    font-family: "Sofia", sans-serif;
+    
+}
+h3.heading{
+    text-transform:uppercase;
+    padding-bottom: 10px;
+    
+
+}
+p.head{
+    padding-bottom: 20px;;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-transform:capitalize;
+}
+a.button{
+     background-color: #D2691E;
+     
+    border-radius: 5px;
+    width:100px;
+    padding:10px;
+    text-align: center;
+    color:cornsilk;
+    text-decoration: none;
+    
+
+}
+a:hover{
+   background-color: #F4A460;
+   color:crimson;
+}
+
+div.part{
+    color:white;
+    text-align:center;
+}
+h1.part{
+    
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  border:  solid 1px;
+  background: #008000;
+  padding: 20px; ;
+}
+
+.container{
+   display: grid;
+   grid-template-columns:  auto 400px;
+   grid-gap: 10px;
+
+}
+.contains{
+    display: grid;
+    grid-template-columns: auto auto
+}
+.container >div{
+    background-color: white;
+   
+   
+}
+ul.list > li{
+    padding: 10px;
+    font-size: large;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(odd){background-color: brown; color: white; }
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: green;
+    color: white;
+  }
+/*div.pictures{
+    text-align: right;
+    width:"500px";
+     height:"500";
+     padding-top: 500px;
+}*/
